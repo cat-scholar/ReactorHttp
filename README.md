@@ -23,3 +23,9 @@ cmake --build build
 ![](./images/main.png)
 
 ![](./images/calendar.png)
+
+```
+# 可以修改CMakeLists.txt，使得main.cc与其他的内容分开
+# 在本地生成一个静态lib，然后加入这个静态库头文件，重新编译main.cc文件
+```
+
