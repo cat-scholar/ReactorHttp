@@ -34,7 +34,7 @@ sudo ./autobuild.sh
 # 然后重新修改文件main.cc，即将头文件改成如下模式：
 #include <reactorhttp/HttpServer>
 #然后编译文件 
-g++ -std=c++14 mian.cc -o main
+g++ -std=c++14 main.cc -o main -lpthread -lreactorhttp
 ./main
 ```
 
